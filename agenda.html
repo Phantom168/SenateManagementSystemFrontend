@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Senate Management System</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            ul{
+                list-style-type: none;
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Agenda</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="senateDecisions.html" >
+                    Senate Decisions
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="updateHandbook.html">Update Handbook</a>
+                </li>
+  
+              </ul>
+                <!-- <li class="'nav-item">Hello, Jai Goyal</li> -->
+                <button class="btn btn-outline my-2 my-sm-0" type="submit">Logout</button>
+            </div>
+          </nav>
+
+
+          <div class="row">
+            <div class="col-sm-3 agenda-menu pt-5 pl-5">
+                <button class="btn mb-3" data-target="create-agenda">Create New Agenda</button>
+                <ul class="list-group">
+                    <li class="list-item agenda" data-target="agenda1">Agenda 1</li>
+                    <li class="list-item agenda" data-target="agenda2">Agenda 2</li>
+                    <li class="list-item agenda" data-target="agenda3">Agenda 3</li>
+                    <li class="list-item agenda" data-target="agenda4">Agenda 4</li>
+                    <li class="list-item agenda" data-target="agenda5">Agenda 5</li>
+                </ul>
+              </div>
+    
+              <div class="col-sm-3 agenda-submenu pt-5">
+                <ul id="agenda1" class="list-group">
+                    <li  class="list-item agenda-point" data-target="agenda-pt-1">Agenda Point 1</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-2">Agenda Point 2</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-3">Agenda Point 3</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-4">Agenda Point 4</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-5">Agenda Point 5</li>
+                </ul>
+                <ul id="agenda2" class="list-group">
+                    <li  class="list-item agenda-point" data-target="agenda-pt-1">Agenda Point 1</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-2">Agenda Point 2</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-3">Agenda Point 3</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-4">Agenda Point 4</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-5">Agenda Point 5</li>
+                </ul>
+                <ul id="agenda3" class="list-group">
+                    <li  class="list-item agenda-point" data-target="agenda-pt-1">Agenda Point 1</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-2">Agenda Point 2</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-3">Agenda Point 3</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-4">Agenda Point 4</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-5">Agenda Point 5</li>
+                </ul>
+                <ul id="agenda4" class="list-group">
+                    <li  class="list-item agenda-point" data-target="agenda-pt-1">Agenda Point 1</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-2">Agenda Point 2</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-3">Agenda Point 3</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-4">Agenda Point 4</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-5">Agenda Point 5</li>
+                </ul>
+                <ul id="agenda5" class="list-group">
+                    <li  class="list-item agenda-point" data-target="agenda-pt-1">Agenda Point 1</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-2">Agenda Point 2</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-3">Agenda Point 3</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-4">Agenda Point 4</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-5">Agenda Point 5</li>
+                </ul>
+                <ul id="agenda6" class="list-group">
+                    <li  class="list-item agenda-point" data-target="agenda-pt-1">Agenda Point 1</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-2">Agenda Point 2</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-3">Agenda Point 3</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-4">Agenda Point 4</li>
+                    <li  class="list-item agenda-point" data-target="agenda-pt-5">Agenda Point 5</li>
+                </ul>
+              </div>
+    
+              <div class="col-sm-6 agenda-data pt-5">
+                <div id="create-agenda">
+                    Some form
+                    <form>
+                        <input>
+                        <btn>submit</btn>
+                    </form>
+                </div>
+                <div id="agenda1_agenda-pt-1">
+                    Some Content
+                </div>
+    
+              </div>
+          </div>
+
+
+
+
+        
+          <script src="js/jquery-3.2.1.slim.min.js"></script>
+          <script src="js/bootstrap.min.js" ></script>
+          <script>
+            $('.agenda-submenu ul').hide();
+            $('.agenda-data div').hide();
+            $('.list-item.agenda').click(function() {
+                $('.agenda-submenu ul').hide();
+                var target = '#' + $(this).data('target');
+                $(target).show();
+            })
+
+            $('.list-item.agenda-point').click(function() {
+                $('.agenda-data div').hide();
+                var target = '#' + $(this).closest('ul').attr('id') + '_' + $(this).data('target');
+                $(target).show();
+            })
+
+            $('.agenda-menu button').click(function() {
+                $('.agenda-data div').hide();
+                var target = '#' + $(this).data('target');
+                $(target).show();
+            })
+          </script>
+    </body>
+</html>
